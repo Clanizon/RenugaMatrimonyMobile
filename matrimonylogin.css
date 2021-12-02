@@ -156,14 +156,15 @@ margin: 5px;
     width:13rem;
     height:3rem;
     font-family: Roboto;
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
-    letter-spacing: 0.2px;
-    color: #313131;
+    letter-spacing: 0.44px;
+    color: #212121;
     }
+    
     .container
     {
         height: 100%;
@@ -316,7 +317,7 @@ margin: 5px;
     {
         background-color: #632ace;
         width: 100px;
-        height: 30px;
+        height: 35px;
         border-radius: 4px;
         color:#ffffff;
         border:0;
@@ -354,4 +355,201 @@ margin: 5px;
             height: 1rem;
         }
     }
-       
+   .form-check-input mt-0
+   {
+    width: 10px;
+    height: 10px;
+    margin: 4px 6px 2px 0;
+    border: solid 1px #c2bdbd;
+   } 
+   .radiolabeltag
+    {
+        width:8rem;
+        height:3rem;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.44px;
+        color: #212121;   
+    }
+   .radiolabeltag1
+   {
+    width:6rem;
+    height:3rem;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.44px;
+    color: #212121;   
+   }   
+   .rectckinput
+   {
+    width: 12px;
+    height: 12px;
+    margin: 1px 6px 1px 0;
+    border-radius: 2px;
+    border: solid 1px #c2bdbd;
+   }
+   .cklabeltag
+   {
+       width: 8rem;
+       height:3rem;
+       font-family: Roboto;
+       font-size: 14px;
+       font-weight: normal;
+       font-stretch: normal;
+       font-style: normal;
+       line-height: normal;
+       letter-spacing: 0.44px;
+       color: #212121;  
+       padding-left: 4px; 
+   }
+   .cklabeltag1
+   {
+       width: 6rem;
+       height:3rem;
+       font-family: Roboto;
+       font-size: 14px;
+       font-weight: normal;
+       font-stretch: normal;
+       font-style: normal;
+       line-height: normal;
+       letter-spacing: 0.44px;
+       color: #212121; 
+       padding-left: 4px;  
+   }
+   .cklabeltag2
+   {
+       width: 2rem;
+       height:3rem;
+       font-family: Roboto;
+       font-size: 14px;
+       font-weight: normal;
+       font-stretch: normal;
+       font-style: normal;
+       line-height: normal;
+       letter-spacing: 0.44px;
+       color: #212121;
+       padding-left: 4px;    
+   }
+   .selectbox
+   {
+    width:17rem;
+    height: 16px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.44px;
+    color: #a9a6a6;
+    border-bottom: 1px solid #c2bdbd;
+   }
+   .radiolabeltagfamily
+   {
+    height:1.5rem;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.44px;
+    color: #212121;  
+    display: inline-block;
+   }
+   .radioinput1
+   {
+    width: 10px;
+    height: 10px;
+    margin: 4px 6px 2px 0;
+    border: solid 1px #c2bdbd;
+    margin-left: 10rem; 
+   }
+   .backbtn
+   {
+    width: 100px;
+        height: 35px;
+        border-radius: 4px;
+        color:#333139;
+        border:0;
+    background-color: #e7e4ee;
+    margin: 3px 4px 84.2px 21.5px;
+  }
+  .col-md-3.status {
+    width:10rem;
+}
+.col-md-2.status {
+    width: 39%;
+}
+.col-md-1.status {
+    width: 23%;
+}
+.col-md-2.status1 {
+    width: 22%;
+}
+.col-md-2.status2{
+    width: 17%;
+}
+.col-md-3.status1 {
+    width: 28%;
+}
+.col-md-1.status1 {
+    width: 25%;
+}
+.radiolabeltag2
+{
+    width:85%;
+    height:3rem;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.44px;
+    color: #212121;
+}
+.col-md-5.stat{
+    width:66%;
+}
+.nextbttn
+{
+    width: 100px;
+    height: 38px;
+    border-radius: 4px;
+    background-color: #5f2fc8;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.11px;
+    color: #fff;
+    border: 0;
+}
+
+@media screen and (min-width: 0px) and (max-width:1024px) {
+    .partright
+    {
+        height: auto;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1124px) {
+    .partright
+    {
+        height:75%;
+    }
+    .partleft
+    {
+        height: 75%;
+    }
+}
